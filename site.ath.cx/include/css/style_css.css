@@ -1,0 +1,11 @@
+/* Default left-it.ath.cx CSS Document */
+body {
+	background-color:#333333;
+	margin:0px;
+	padding:0px;	
+}
+body, table {
+	font-family:"Tahoma";
+	color:#F7F7F7;
+	font-size:12px;
+}
