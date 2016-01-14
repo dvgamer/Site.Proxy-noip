@@ -1,0 +1,1 @@
+<div style="display:none"><img src="<?php echo $pathDomain; ?>images/bg/girls-2.jpg" border="0" width="960" height="0" /></div>

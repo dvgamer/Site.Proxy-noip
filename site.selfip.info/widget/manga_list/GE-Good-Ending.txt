@@ -1,0 +1,5 @@
+[Genre]
+Romance, Comedy
+
+[Detail]
+ยังไม่มีรายละเอียด

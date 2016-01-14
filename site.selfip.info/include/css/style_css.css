@@ -1,0 +1,11 @@
+/* Default it-my.selfip.info CSS Document */
+body {
+	background-color:#F7F7F7;
+	margin:0px;
+	padding:0px;	
+}
+body, table {
+	font-family:"Tahoma";
+	color:#333333;
+	font-size:12px;
+}
