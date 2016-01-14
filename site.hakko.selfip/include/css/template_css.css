@@ -1,0 +1,354 @@
+#hakko-shadow { background:url(../../images/HaKoShadow.png) top no-repeat; }
+#hakko-main {
+	padding:5px;
+}
+#hakko-logo {
+	background:url(../../images/line.jpg) 50% 85% no-repeat;	
+	text-align:left;
+	height:100px;
+	width:1100px;
+	padding-left:50px;
+	margin-top:40px;
+}
+#hakko-credit {
+	background:url(../../images/line.jpg) no-repeat;
+	width:1100px;
+	text-align:right;
+	margin:10px 0 10px 0; 
+	padding:10px 0 10px 0;
+}
+#hakko-credit-img {
+	background:url(../../images/credit.png) right no-repeat;
+}
+#hakko-nav {
+	text-align:right;
+	padding-top:30px;
+}
+#hakko-nav li {
+	display:inline-table;
+	float:right;
+	cursor:pointer;
+}
+#box-manga {
+
+}
+#hakko-body { padding-right:11px; }
+/* Box Body hakko */
+.hakko-box { margin:10px 5px 10px 5px; display:inline-table; vertical-align:top; text-align:left; color:#333333 !important;}
+.hakko-box td#conner-lt { background:url(../../images/body/body-conner-lt.png) no-repeat; width:8px; height:8px;}
+.hakko-box td#conner-rt { background:url(../../images/body/body-conner-rt.png) no-repeat; width:8px; height:8px;}
+.hakko-box td#conner-lb { background:url(../../images/body/body-conner-lb.png) no-repeat; width:8px; height:8px;}
+.hakko-box td#conner-rb { background:url(../../images/body/body-conner-rb.png) no-repeat; width:8px; height:8px;}
+.hakko-box td#border-t { background:url(../../images/body/body-border-t.png) repeat-x; height:8px;}
+.hakko-box td#border-b { background:url(../../images/body/body-border-b.png) repeat-x; height:8px;}
+.hakko-box td#border-r { background:url(../../images/body/body-border-r.png) repeat-y; width:8px;}
+.hakko-box td#border-l { background:url(../../images/body/body-border-l.png) repeat-y; width:30px;}
+.hakko-box td#body-box { background-color:#FFF; padding:10px 10px 10px 3px; }
+
+#earning_0, #earning_1, #earning_2 {
+	/*visibility:hidden;	*/
+}
+input[type=password]#password {
+	border:#CCC dashed 1px;
+	width:300px;
+	background-color:#fafafa;
+	text-align:center;
+	color:#333333;
+	font-size:40px;
+}
+
+#error-login {
+	color:#990000;
+	text-align:center;
+}
+#list-manga {
+	border:#FFF solid 1px;
+}
+#list-manga:hover {
+	background-color:#F9F9F9;
+	border:#e4e4e4 solid 1px;
+	cursor:pointer;
+}
+#list-thumb {
+	margin:5px;
+	padding:1px;
+	border:#3e3e3e solid 2px;
+	display:inline-table;
+}
+a:hover #list-thumb {
+	border:#91cd49 solid 2px;
+}
+#list-name {
+	padding-left:7px;
+	color:#333333;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover #list-name {
+	text-decoration:underline;
+}
+#list-detail{
+	text-decoration:none;
+	padding-left:7px;
+	color:#333333;
+	font-size:9px;
+	font-weight:normal;
+}
+
+a:hover #list-detail {
+	text-decoration:none;
+}
+#last-list {
+	color:#333333;
+	border:#ffffff solid 1px;
+}
+#last-chapter {
+	font-size:11px;
+	padding-top:3px;
+}
+#last-day {
+	font-size:9px;
+}
+#last-list:hover {
+	background-color:#F9F9F9;
+	border:#e4e4e4 solid 1px;
+	cursor:pointer;
+}
+/* Navigator */
+#nav-hakko {
+	padding-top:39px;
+	text-align:right;
+}
+#nav-hakko li {
+	display:inline-block;
+	cursor:pointer;
+	height:40px;
+}
+#nav-hakko li.back {
+	background-image:url(../../images/navBack_up.png);
+	width:75px;
+}
+#nav-hakko li.home {
+	background-image:url(../../images/navHome_up.png);
+	width:70px;
+}
+#nav-hakko li.board {
+	background-image:url(../../images/navBoard_up.png);
+	width:89px;
+}
+#nav-hakko li.info {
+	background-image:url(../../images/navInfo_up.png);
+	width:70px;
+}
+
+#nav-hakko li.home#selected {background-image:url(../../images/navHome_visit.png); }
+#nav-hakko li.board#selected {	background-image:url(../../images/navBoard_visit.png); }
+#nav-hakko li.info#selected { background-image:url(../../images/navInfo_visit.png); }
+
+#nav-hakko li.back:hover { background-image:url(../../images/navBack_hover.png); }
+#nav-hakko li.home:hover {background-image:url(../../images/navHome_hover.png); }
+#nav-hakko li.board:hover {	background-image:url(../../images/navBoard_hover.png); }
+#nav-hakko li.info:hover { background-image:url(../../images/navInfo_hover.png); }
+
+#nav-hakko li.home#selected:hover, #nav-hakko li.board#selected:hover, #nav-hakko li.info#selected:hover {
+	cursor:default;
+}
+#update-manga {
+	display:none;
+}
+/* Gallery Slider */
+#slide-space {
+	height:350px;	
+}
+#slide-img {
+	position:absolute;
+	margin:-22px 0 0 -54px;
+}
+
+#s3slider { 
+	width: 814px; /* important to be same as image width */ 
+	height: 382px; /* important to be same as image height */
+	position: relative; /* important */
+	overflow: hidden; /* important */
+}
+
+#s3sliderContent {
+	width: 814px; /* important to be same as image width or wider */
+	position: absolute; /* important */
+	top: 0; /* important */
+	margin-left: 0; /* important */
+}
+
+.s3sliderImage {
+	float: left; /* important */
+	position: relative; /* important */
+	display: none; /* important */
+}
+
+.s3sliderImage span {
+	position: absolute; /* important */
+	bottom: 0;
+	left: 0;
+	font: 11px/15px Arial, Helvetica, sans-serif;
+	padding: 10px 13px;
+	width: 742px;
+	background-color: #000000;
+	filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+	-moz-opacity: 0.7; /* here you can set the opacity of box with text */
+	-khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+	opacity: 0.7; /* here you can set the opacity of box with text */
+	color: #ffffff;
+	display: none; /* important */
+
+   /*
+       if you put
+       top: 0; -> the box with text will be shown at the top of the image 
+       if you put
+       bottom: 0; -> the box with text will be shown at the bottom of the image
+   */
+}
+
+.clear {
+   clear: both;
+}
+
+/* Manga Detail */
+#manga-comment {
+	margin-left:10px;	
+}
+#manga-chapter, #manga-comment {
+	border-left:#FFFFFF solid 5px;
+	padding:5px;
+}
+#manga-chapter:hover {
+	border-left:#aec95a solid 5px;
+	cursor:pointer;
+}
+#name-chapter, #name-comment {
+	font-size:11px;
+	color:#666666;
+	border-bottom:#F7F7F7 solid 1px;
+	padding:3px 0 3px 5px;
+}
+#name-comment {
+	border-bottom:#EEEEEE solid 1px !important;
+}
+#list-comment {
+	font-weight:bold;
+}
+a #list-chapter {
+	font-weight:bold;
+	text-decoration:underline;
+	color:#147786;
+}
+a:hover #list-chapter{
+	color:#88a139;
+}
+.img-blog {
+	display:inline-block;
+	border:#FFFFFF solid 6px;
+	margin-right:10px;
+	width:360px;
+	-moz-box-shadow: 0px 0px 6px #D1D1D1;
+    -webkit-box-shadow: 0px 0px 6px #D1D1D1;
+    box-shadow: 0px 0px 6px #D1D1D1;
+}
+.img-blog:hover {
+
+}
+.img-text {
+	background-color:#FFFFFF;
+	text-align:right;
+	color:#666;
+	font-size:11px;
+	padding:10px 5px 5px 5px;
+}
+#details {
+	margin-left:15px;
+	font-size:11px;
+	color:#666666;	
+}
+#date-comment {
+	font-size:11px;
+	font-weight:bold;
+	color:#333333;	
+}
+#image-manga {
+	cursor:pointer;
+	width:900px;
+	height:400px;
+}
+#back-page, #next-page{
+	background-repeat:no-repeat;
+	position:absolute;
+	
+	display:inline-block;
+	cursor:pointer;
+	width:200px;
+	height:80px;	
+}
+#back-page { background-image:url(../../images/viewBack_up.png);right:60%; }
+#back-page:active { background-image:url(../../images/viewBack_hover.png); }
+
+#next-page { background-image:url(../../images/viewNext_up.png);left:60%; }
+#next-page:active { background-image:url(../../images/viewNext_hover.png); }
+
+#comment-box {
+	background-color:#F7F7F7;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:5px 15px 5px 15px;
+}
+
+#comment-text {
+	margin:5px;
+	width:300px;
+	background-color:#FFFFFF;
+	border:#9E9E9E solid 1px;
+}
+#preload {
+	z-index:100;	
+	position:fixed;
+	top:-50px;
+	left:50%;
+	color:#DDD;
+	width:300px;
+	padding:5px;
+	margin-left:-150px;
+	background-color:#3a3a3a;	
+	border:2px solid #545454;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+.manga_view {
+	overflow:hidden;
+	height:24px;
+	margin-top:10px;
+	padding:2px;
+	display:table;
+}
+.manga_like {
+	background-color:#eaedfc;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	position:absolute;
+	overflow:hidden;
+	width:58px;
+	height:20px;
+	margin-left:280px;
+	padding:2px;
+}
+#comment-submit {
+	background:url(../../images/submitComment.png);
+	cursor:pointer;
+	border:none;
+	width:106px;
+	height:31px;	
+}
+#comment-submit:hover {
+	background:url(../../images/submitComment.png) 0px 62px;
+}
+#comment-submit:active {
+	background:url(../../images/submitComment.png) 0px 31px;
+}
