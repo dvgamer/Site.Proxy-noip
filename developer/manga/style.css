@@ -1,0 +1,123 @@
+/* CSS Document */
+body {
+	margin:0px;
+	padding:0px;
+}
+
+body,table {
+	font-family:"Tahoma";
+	font-size:12px;
+	color:#33333px;
+}
+em {
+	font-size:9px;
+	color:#aaaaaa;
+}
+
+input[type=text]  {
+	border:#e1e1e1 solid 1px;
+	background-color:#ffffff;
+	font-size:11px;
+	margin:3px 0 3px 0;
+	padding:2px;
+}
+input[type=button] {
+	font-size:12px;
+	font-weight:bold;
+	width:250px;
+	height:40px;
+	cursor:default;
+}
+input[type=button]#created, input[type=button]#write {
+	width:150px;
+}
+
+
+fieldset {
+	width:70%;
+	margin:5px;
+	text-align:center;
+	border:#c1c1c1 solid 1px;
+}
+legend {
+	font-weight:bold;
+	text-align:left;
+}
+select {
+	font-size:11px;
+	width:150px;
+	margin:5px;
+}
+
+#process-bg {
+	background:url(images/process_bg.jpg) left top no-repeat;
+	width:703px;
+	height:18px;
+}
+#process-bar {
+	background:url(images/process_bar.jpg) left top no-repeat;
+	width:0%;
+	height:18px;
+}
+#process-txt {
+	text-align:center;
+	vertical-align:middle;
+	font-size:10px;
+	font-weight:bold;
+	padding-top:2px;
+	float:left;
+	width:698px;
+	height:15px;
+}
+#process-log {
+	overflow:scroll;
+	overflow-x:hidden;
+	margin-top:7px;
+	height:300px;
+	width:698px;
+}
+#radio {
+	font-size:11px;
+	cursor:pointer;
+}
+#box-main {
+	text-align:left;
+	border:#d1d1d1 solid 1px;
+	background-color:#fafafa;
+	padding:10px;
+	margin:5px;
+	width:800px;
+}
+#manga {
+	padding:5px 0 5px 20px;	
+}
+#status {
+	text-align:left;
+	padding-left:25px;	
+}
+#check, #check-f {
+	color:#990000;
+}
+#check-p {
+	color:#009900;
+}
+fieldset#process {
+	width:90%;
+	margin:10px;
+	text-align:left;
+}
+#log {
+	padding-left:20px;
+	height:600px;	
+	overflow:scroll;
+	font-size:11px;
+	color:#666666;
+}
+#process-text {
+	cursor:pointer;
+}
+#list-th,#list-en {
+	color:#666666;
+	font-weight:normal;
+}
+	
